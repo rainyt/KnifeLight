@@ -17,7 +17,7 @@
 
 	<haxelib name="openfl" />
 
-	<haxelib name="zygameui"/>
+	<!-- <haxelib name="zygameui"/> -->
 
 	<assets path="Assets" rename="assets" />
 

@@ -1,8 +1,6 @@
 package;
 
-import zygame.shader.GeryShader;
 import openfl.events.TouchEvent;
-import zygame.shader.StrokeShader;
 import openfl.Assets;
 import openfl.display.BlendMode;
 #if zygame
@@ -54,7 +52,8 @@ class Main extends #if zygame Start #else Sprite #end {
 		// knife.blendMode = BlendMode.ADD;
 		#end
 	}
-
+	
+	#if zygame
 	override function onTouchBegin(e:TouchEvent) {
 		super.onTouchBegin(e);
 		_k.onTouch(e);
@@ -69,4 +68,5 @@ class Main extends #if zygame Start #else Sprite #end {
 		super.onTouchMove(e);
 		_k.onTouch(e);
 	}
+	#end
 }
