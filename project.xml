@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+
+	<haxedef name="gl_stats" />
+
+	<!-- <haxedef name="canvas"/> -->
+
+	<!-- debug调试信息 -->
+	<haxedef name="debug" />
+
+	<window background="0" vsync="true" />
+
+	<meta title="KnifeLight" package="com.sample.KnifeLight" version="1.0.0" company="Company Name" />
+	<app main="Main" path="Export" file="KnifeLight" />
+
+	<source path="Source" />
+
+	<haxelib name="openfl" />
+
+	<haxelib name="zygameui"/>
+
+	<assets path="Assets" rename="assets" />
+
+</project>
